@@ -47,7 +47,7 @@ namespace ReflectiveConfigMgr
             if (readOnlyFlag == null || addMethod == null || removeMethod == null)
             {
                 // Probably want to throw here if you're using this in production
-                // Also probably don't to use this in production - you're overwriting the singleton for the entire app domain.
+                // Also probably don't use this in production - you're overwriting the singleton for the entire app domain.
                 return;
             }
 
